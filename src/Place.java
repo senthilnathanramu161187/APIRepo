@@ -29,6 +29,7 @@ public class Place {
 				+ "";
 		
 		System.out.println("*************** ADD PLACE ***************");
+		//System.out.println("*************** ADD PLACE ***************");
 		String addRresp = given().log().all()
 		.queryParam("key","qaclick123")
 		.body(addReq)
@@ -121,6 +122,8 @@ public class Place {
 		.then().log().all()
 		.assertThat().statusCode(404);
 		
+		
+		System.out.println("*************** End of program ***************");
 	}
 
 }
