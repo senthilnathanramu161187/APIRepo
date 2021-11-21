@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\NewWS\.metadata\.plugins\org.eclipse.jdt.core
+1984876249.index
