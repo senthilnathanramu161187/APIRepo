@@ -98,6 +98,8 @@ public class Place {
 		
 		System.out.println("*************** Delete  ***************");
 		
+		//System.out.println("*************** Delete  ***************");
+		
 		given()
 		.log()
 		.all()
